@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+}
+
+/* Averia — matches the year-sticker preview to the site */
+@font-face {
+  font-family: 'Averia';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Averia-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Averia';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Averia-Bold.ttf') format('truetype');
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: #ededed;
+  color: #111114;
+  font-family: var(--font-mono);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#admin-root {
+  min-height: 100svh;
+}
+
+/* Shared bits, styled in the site's black-border / mono paper language. */
+@layer components {
+  .a-label {
+    @apply mb-1 block font-mono text-[11px] font-medium tracking-wide text-zinc-500 uppercase;
+  }
+  .a-input {
+    @apply w-full rounded-md border border-black/15 bg-white px-3 py-2 font-mono text-sm text-zinc-900 outline-none placeholder:text-zinc-400 focus:border-black;
+  }
+  .a-btn {
+    @apply inline-flex cursor-pointer items-center justify-center gap-1.5 rounded-md border border-black bg-white px-3 py-1.5 font-mono text-xs font-medium transition-colors hover:bg-black hover:text-white disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-white disabled:hover:text-black;
+  }
+  .a-btn-solid {
+    @apply inline-flex cursor-pointer items-center justify-center gap-1.5 rounded-md border border-black bg-black px-3 py-1.5 font-mono text-xs font-medium text-white transition-opacity hover:opacity-80 disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .a-btn-ghost {
+    @apply inline-flex cursor-pointer items-center justify-center gap-1.5 rounded-md px-2 py-1 font-mono text-xs text-zinc-500 transition-colors hover:bg-black/5 hover:text-black disabled:opacity-30;
+  }
+  .a-card {
+    @apply rounded-lg border border-black/15 bg-white;
+  }
+  .a-chip {
+    @apply inline-flex items-center rounded-sm border border-black/20 px-1.5 py-0.5 font-mono text-[10px] font-medium;
+  }
+}

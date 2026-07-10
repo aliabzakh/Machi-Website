@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills *)",
+      "Bash(cat \"C:\\\\Users\\\\aliabzakh77\\\\.claude\\\\settings.json\" 2>&1 | head -50)",
+      "Bash(npx -y firecrawl-cli@latest init --all -k fc-26730eac001f4cf588fd419b749ed078)",
+      "Bash(firecrawl setup *)",
+      "Bash(ls -la \"/c/Users/aliabzakh77/OneDrive/Desktop/Machi Website\" 2>&1; echo \"---\"; ls -la \"/c/Users/aliabzakh77/Downloads/object_0.ply\" 2>&1)",
+      "Read(//c/c/Users/aliabzakh77/OneDrive/Desktop/**)",
+      "Bash(npm -v)",
+      "Bash(npm create *)",
+      "Bash(rm -f src/assets/hero.png src/assets/react.svg src/assets/vite.svg src/App.css public/icons.svg)",
+      "Bash(mkdir -p public/models public/images src/components src/data)",
+      "Bash(cp \"/c/Users/aliabzakh77/Downloads/object_0.ply\" public/models/crate.ply)",
+      "Bash(cp \"/c/Users/aliabzakh77/Downloads/6c5bf4560a2b471acced040d78157b57.jpg\" src/reference-crate-photo.jpg)",
+      "Bash(node -e ' *)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

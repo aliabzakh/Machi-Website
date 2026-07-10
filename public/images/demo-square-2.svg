@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <rect width="500" height="500" fill="#0e7c86"/>
+  <g stroke="#7ef0d0" stroke-width="26" stroke-linecap="round">
+    <path d="M-40 120 Q 125 40 250 120 T 540 120" fill="none"/>
+    <path d="M-40 220 Q 125 140 250 220 T 540 220" fill="none"/>
+    <path d="M-40 320 Q 125 240 250 320 T 540 320" fill="none"/>
+    <path d="M-40 420 Q 125 340 250 420 T 540 420" fill="none"/>
+  </g>
+  <circle cx="250" cy="250" r="70" fill="#ffcf5c"/>
+  <circle cx="250" cy="250" r="70" fill="none" stroke="#08343a" stroke-width="10"/>
+  <text x="250" y="474" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="700" fill="#eafff8">SQUARE TWO</text>
+</svg>

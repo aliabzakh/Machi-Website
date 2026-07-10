@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <rect width="500" height="500" fill="#2b1a5e"/>
+  <g fill="#e83e8c">
+    <rect x="0" y="0" width="125" height="125"/>
+    <rect x="250" y="0" width="125" height="125"/>
+    <rect x="125" y="125" width="125" height="125"/>
+    <rect x="375" y="125" width="125" height="125"/>
+    <rect x="0" y="250" width="125" height="125"/>
+    <rect x="250" y="250" width="125" height="125"/>
+    <rect x="125" y="375" width="125" height="125"/>
+    <rect x="375" y="375" width="125" height="125"/>
+  </g>
+  <polygon points="250,150 330,330 170,330" fill="#ffd23f" stroke="#2b1a5e" stroke-width="10"/>
+  <text x="250" y="470" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="700" fill="#7ef0d0">SQUARE THREE</text>
+</svg>

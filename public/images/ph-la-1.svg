@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750">
+  <rect width="600" height="750" fill="#ffffff"/>
+  <rect x="8" y="8" width="584" height="734" fill="none" stroke="#000000" stroke-width="4"/>
+  <text x="44" y="100" font-family="'Courier New',monospace" font-weight="bold" font-size="66">DAY 149</text>
+  <text x="44" y="140" font-family="'Courier New',monospace" font-size="25">Discovering Music from</text>
+  <text x="44" y="170" font-family="'Courier New',monospace" font-size="25">Around the World</text>
+  <rect x="44" y="206" width="512" height="320" fill="#D95D39"/>
+  <text x="300" y="368" font-family="'Courier New',monospace" font-size="130" text-anchor="middle" fill="#ffffff">&#9834;</text>
+  <text x="300" y="480" font-family="'Courier New',monospace" font-size="26" letter-spacing="4" text-anchor="middle" fill="#ffffff" opacity="0.9">PLACEHOLDER</text>
+  <text x="44" y="596" font-family="'Courier New',monospace" font-weight="bold" font-size="38">Zamba de Mi Esperanza</text>
+  <text x="44" y="640" font-family="'Courier New',monospace" font-size="26">Jorge Cafrune</text>
+  <text x="44" y="692" font-family="'Courier New',monospace" font-size="22" fill="#666666">Argentina — 1964</text>
+</svg>
